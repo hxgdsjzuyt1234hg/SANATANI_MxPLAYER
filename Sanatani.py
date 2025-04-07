@@ -222,7 +222,7 @@ async def main():
         LOGGER.info(f"🚫 Assistant Error: {e}")
         sys.exit()
     try:
-        await app.join_chat("BABY09_WORLD")
+        await app.join_chat("MRMOTUPATLUCHAT")
         await app.join_chat("+OL6jdTL7JAJjYzVl")
     except Exception:
         pass
@@ -242,7 +242,7 @@ async def main():
     LOGGER.info("✅ PyTgCalls Started.")
     await asyncio.sleep(1)
     LOGGER.info("✅ Successfully Hosted Your Bot !!")
-    LOGGER.info("✅ Now Do Visit: @BABY09_WORLD !!")
+    LOGGER.info("✅ Now Do Visit: @MRMOTUPATLUCHAT !!")
     await idle()
 
 # Some Required Functions ...!!
@@ -352,11 +352,11 @@ async def add_served_user(user_id: int):
 CBUTTON = InlineKeyboardMarkup(
     inline_keyboard=[
         [
-            InlineKeyboardButton("˹ sᴜᴘᴘᴏꝛᴛ ˼", url="https://t.me/+OL6jdTL7JAJjYzVl")
+            InlineKeyboardButton("˹ sᴜᴘᴘᴏꝛᴛ ˼", url="https://t.me/MRMOTUPATLUCHAT")
         ],
         [
-            InlineKeyboardButton("˹ ᴜᴘᴅᴧᴛᴇ ˼", url="https://t.me/BABY09_WORLD"),
-            InlineKeyboardButton("˹ ᴧʟʟ ʙᴏᴛ ˼", url="https://t.me/+tHAENx_r_mtlODZl")
+            InlineKeyboardButton("˹ ᴜᴘᴅᴧᴛᴇ ˼", url="https://t.me/MRMOTUPATLUCHAT"),
+            InlineKeyboardButton("˹ ᴧʟʟ ʙᴏᴛ ˼", url="https://t.me/MRMOTUPATLUCHAT")
         ],
         [
             InlineKeyboardButton("↺ ʙᴧᴄᴋ ↻", callback_data="back_to_home")
@@ -409,7 +409,7 @@ HELP_X = """```
 
 ␥ /end - Cʟᴇᴀʀ , ᴇɴᴅ ᴀʟʟ sᴏɴɢ [ᴀᴜɪᴅᴏ & ᴠɪᴅᴇᴏ]
 
-V ɪ s ɪ ᴛ - [ʜᴇʀᴇ](https://t.me/BABY09_WORLD)"""
+V ɪ s ɪ ᴛ - [ʜᴇʀᴇ](https://t.me/MRMOTUPATLUCHAT)"""
 
 # Callback query handler
 @bot.on_callback_query(filters.regex("UTTAM_RATHORE"))
@@ -458,7 +458,7 @@ async def start_message_private(client, message):
 │**❍ ɪ ᴀᴍ 【◖ Sαηαтαηι ◗ 】 🚩 •**
 ├───────────────────▣**
 │**❍ ʙᴇsᴛ ǫᴜɪʟɪᴛʏ ғᴇᴀᴛᴜʀᴇs •**
-│**❍ ᴍᴀᴅᴇ ʙʏ...[˹ ʙᴀʙʏ-ᴍᴜsɪᴄ ™˼𓅂](https://t.me/BABY09_WORLD) •**
+│**❍ ᴍᴀᴅᴇ ʙʏ...[˹ Motu_patlu™˼𓅂](https://t.me/MRMOTUPATLUCHAT) •**
 ╰───────────────────▣"""
 
         buttons = InlineKeyboardMarkup(
@@ -524,7 +524,7 @@ async def help(client: Client, message: Message):
              [
                  [
                       InlineKeyboardButton(
-                         "python 3.0", url=f"https://t.me/UTTAM470")
+                         "python 3.0", url=f"https://t.me/MOTU_PATALU_HINDU_HAI")
                  ]
             ]
          ),
@@ -538,7 +538,7 @@ async def back_to_home_menu(client, query):
 │**❍ ɪ ᴀᴍ 【◖ Sαηαтαηι ◗ 】 🚩 •**
 ├───────────────────▣**
 │**❍ ʙᴇsᴛ ǫᴜɪʟɪᴛʏ ғᴇᴀᴛᴜʀᴇs •**
-│**❍ ᴍᴀᴅᴇ ʙʏ...[˹ ʙᴀʙʏ-ᴍᴜsɪᴄ ™˼𓅂](https://t.me/BABY09_WORLD) •**
+│**❍ ᴍᴀᴅᴇ ʙʏ...[˹ ᴍᴏᴛᴜᴘᴀᴛʟᴜ-ᴍᴜsɪᴄ ™˼𓅂](https://t.me/MRMOTUPATLUCHAT) •**
 ╰───────────────────▣"""
 
     buttons = InlineKeyboardMarkup(
@@ -927,10 +927,10 @@ async def change_stream(chat_id):
     inline_keyboard=[
         [
             InlineKeyboardButton(
-                text="˹ ᴜᴘᴅᴀᴛᴇ ˼", url="https://t.me/BABY09_WORLD"
+                text="˹ ᴜᴘᴅᴀᴛᴇ ˼", url="https://t.me/MRMOTUPATLUCHAT"
             ),
             InlineKeyboardButton(
-                text="˹ sᴜᴘᴘᴏꝛᴛ ˼", url="https://t.me/+OL6jdTL7JAJjYzVl"
+                text="˹ sᴜᴘᴘᴏꝛᴛ ˼", url="https://t.me/MOTU_PATALU_HINDU_HAI"
             )
         ],
         [
@@ -1028,10 +1028,10 @@ async def stream_audio_or_video(client, message):
     inline_keyboard=[
         [
             InlineKeyboardButton(
-                text="˹ ᴜᴘᴅᴀᴛᴇ ˼", url="https://t.me/BABY09_WORLD"
+                text="˹ ᴜᴘᴅᴀᴛᴇ ˼", url="https://t.me/MOTU_PATALU_HINDU_HAI"
             ),
             InlineKeyboardButton(
-                text="˹ sᴜᴘᴘᴏꝛᴛ ˼", url="https://t.me/+OL6jdTL7JAJjYzVl"
+                text="˹ sᴜᴘᴘᴏꝛᴛ ˼", url="https://t.me/MRMOTUPATLUCHAT"
             )
         ],
         [
