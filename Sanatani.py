@@ -85,8 +85,8 @@ API_HASH = getenv("API_HASH", "0")
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 STRING_SESSION = getenv("STRING_SESSION", "")
 MONGO_DB_URL = getenv("MONGO_DB_URL", "")
-OWNER_ID = int(getenv("OWNER_ID", "7400383704"))
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002043570167"))
+OWNER_ID = int(getenv("OWNER_ID", "7886419837"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002372170981"))
 START_IMAGE_URL = getenv("START_IMAGE_URL", "https://files.catbox.moe/3o7nd8.mp4")
 REPO_IMAGE_URL = getenv("REPO_IMAGE_URL", "https://files.catbox.moe/nswh7s.jpg")
 STATS_IMAGE_URL = getenv("STATS_IMAGE_URL", "https://files.catbox.moe/2hgoq7.jpg")
@@ -223,7 +223,7 @@ async def main():
         sys.exit()
     try:
         await app.join_chat("MRMOTUPATLUCHAT")
-        await app.join_chat("+OL6jdTL7JAJjYzVl")
+        await app.join_chat("MOTU_PATALU_HINDU_HAI
     except Exception:
         pass
     if LOG_GROUP_ID != 0:
@@ -412,7 +412,7 @@ HELP_X = """```
 V ɪ s ɪ ᴛ - [ʜᴇʀᴇ](https://t.me/MRMOTUPATLUCHAT)"""
 
 # Callback query handler
-@bot.on_callback_query(filters.regex("UTTAM_RATHORE"))
+@bot.on_callback_query(filters.regex("MOTU_PATLU"))
 async def helper_cb(client, CallbackQuery):
     await CallbackQuery.edit_message_text(HELP_X, reply_markup=ABUTTON)
 
@@ -476,7 +476,7 @@ async def start_message_private(client, message):
                     ),
                     InlineKeyboardButton(
                         text="˹ ᴍᴜsɪᴄ ˼",
-                        callback_data="UTTAM_RATHORE",
+                        callback_data="MOTU_PATLU",
                     ),
                 ],
                 [
